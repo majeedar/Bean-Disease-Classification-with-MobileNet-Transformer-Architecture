@@ -1,0 +1,15 @@
+# Dataset folders (download from Kaggle; test split is in test.zip)
+train/
+validation/
+test/
+
+# Large or intermediate training outputs (only the final .tflite + labels are committed)
+export/*.keras
+export/bean_saved_model/
+export/compare/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
