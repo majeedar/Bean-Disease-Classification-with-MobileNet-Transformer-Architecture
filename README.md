@@ -1,10 +1,10 @@
-# Bean Leaf Disease Classification — MobileNet Transfer Learning
+# Phase 1: Bean Leaf Disease Classification — MobileNet Transfer Learning
 
 Image classifier that detects two common bean leaf diseases, **angular leaf spot** and **bean rust**, and recognises **healthy** leaves from a photo. It compares three mobile-friendly CNN backbones and exports the best one to **TensorFlow Lite** for an offline Android app.
 
 **Best model: MobileNetV3-Large, 97.7% test accuracy (125/128), 3.3 MB on-device model**
 
-➡️ Deployment (Android app): **[beandoc-android](https://github.com/majeedar/beandoc-android)**
+➡️ **Phase 2: deployment** (offline Android app, parity tests, signed APK and download site): **[Bean-Disease-Classification-Android-Deployment](https://github.com/majeedar/Bean-Disease-Classification-Android-Deployment)**
 
 <p align="center">
   <img src="assets/sample_images.jpg" width="720" alt="Sample training images with labels">
